@@ -1,8 +1,8 @@
-package br.alura.refatoracao.cap3;
+package br.alura.refatoracao.cap1;
 
-public class EnviadorDeEmail {
-
-	public void enviaEmail(br.alura.refatoracao.cap1.NotaFiscal nf) {
+public class enviadorDeEmail {
+	
+	public void enviaEmail(NotaFiscal nf) {
 		// envia email
 		String msgDoEmail = "Caro cliente,<br/>";
 		msgDoEmail += "É com prazer que lhe avisamos que sua nota fiscal foi "
@@ -13,8 +13,5 @@ public class EnviadorDeEmail {
 		System.out.println(msgDoEmail);
 	}
 
-//	public void enviaEmail(br.alura.refatoracao.cap1.NotaFiscal nf) {
-//		// TODO Auto-generated method stub
-//		
-//	}
+
 }
