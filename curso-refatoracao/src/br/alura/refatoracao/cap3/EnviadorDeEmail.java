@@ -2,7 +2,9 @@ package br.alura.refatoracao.cap3;
 
 public class EnviadorDeEmail {
 
-	public void enviaEmail(br.alura.refatoracao.cap1.NotaFiscal nf) {
+//	public void enviaEmail(br.alura.refatoracao.cap1.NotaFiscal nf) {
+	
+	public void enviaEmail(NotaFiscal nf) {
 		// envia email
 		String msgDoEmail = "Caro cliente,<br/>";
 		msgDoEmail += "É com prazer que lhe avisamos que sua nota fiscal foi "

@@ -1,14 +1,15 @@
 package br.alura.refatoracao.cap1;
 
-import br.alura.refatoracao.cap3.EnviadorDeEmail;
 
-public class GeradorDeNotaFiscal {
+//import br.alura.refatoracao.cap1.EnviadorDeEmail;
+
+public class GeradorDeNotaFiscalCap1 {
 
 	public NotaFiscal gera(Fatura fatura) {
 
 		NotaFiscal nf = geraNF(fatura);
 
-		new EnviadorDeEmail().enviaEmail(nf);	// enviaEmail(nf);
+		new enviadorDeEmailCap1().enviaEmail(nf);	// enviaEmail(nf);
 		
 		new NFDao().salvaNoBanco(nf);	// salvaNoBanco(nf);
 
