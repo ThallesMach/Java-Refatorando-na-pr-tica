@@ -1,6 +1,6 @@
 package br.alura.refatoracao.cap1;
 
-public class enviadorDeEmail {
+public class enviadorDeEmailCap1 {
 	
 	public void enviaEmail(NotaFiscal nf) {
 		// envia email
